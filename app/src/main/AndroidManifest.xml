@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.codebigger.slideviewdemo">
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ui.MainActivity_5">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.Activity_5_2_1" />
+        <activity android:name=".ui.Activity_5_2_2" />
+        <activity android:name=".ui.Activity_5_2_3" />
+        <activity android:name=".ui.Activity_5_2_4" />
+        <activity android:name=".ui.Activity_5_2_5" />
+        <activity android:name=".ui.Activity_5_2_6" />
+        <activity android:name=".ui.Activity_5_2_7" />
+
+    </application>
+
+</manifest>

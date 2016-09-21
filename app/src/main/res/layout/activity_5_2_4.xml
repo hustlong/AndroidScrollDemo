@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:text="scroll方法移动的是View的父布局\n因此，子View相对于父布局移动，
+        \n相当于父布局 取反 移动\n((View)getParent()).scrollBy(-offsetX,-offsetY);\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <cc.codebigger.slideviewdemo.widget.View_5_2_4
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>

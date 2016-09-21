@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidScrollDemo</string>
+    <string name="button1">layout方法</string>
+    <string name="title">实现滑动的7种方法</string>
+    <string name="button2">offset...()方法</string>
+    <string name="button3">LayoutParams</string>
+    <string name="button4">scrollTo 与 scrollBy</string>
+    <string name="button5">Scroller</string>
+    <string name="button6">属性动画</string>
+    <string name="button7">ViewDragHelper</string>
+    <string name="text_5_2_5">\@Override     public void computeScroll() {         super.computeScroll();         if (scroller.computeScrollOffset()) {             offsetLeftAndRight(scroller.getCurrX()-getLeft());             offsetTopAndBottom(scroller.getCurrY()-getTop());             invalidate();         }     } \n</string>
+</resources>
