@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.codebigger.slideviewdemo.widget.UIScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/divider">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="HelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!\nHelloWorld!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:text="Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <cc.codebigger.slideviewdemo.widget.View_5_2_5
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+</cc.codebigger.slideviewdemo.widget.UIScrollView>

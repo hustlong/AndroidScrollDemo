@@ -9,4 +9,5 @@
     <string name="button6">属性动画</string>
     <string name="button7">ViewDragHelper</string>
     <string name="text_5_2_5">\@Override     public void computeScroll() {         super.computeScroll();         if (scroller.computeScrollOffset()) {             offsetLeftAndRight(scroller.getCurrX()-getLeft());             offsetTopAndBottom(scroller.getCurrY()-getTop());             invalidate();         }     } \n</string>
+    <string name="button9">UIScrollView 学习</string>
 </resources>

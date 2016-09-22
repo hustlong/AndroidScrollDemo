@@ -26,6 +26,7 @@ public class MainActivity_5 extends AppCompatActivity implements View.OnClickLis
         findViewById(R.id.button5).setOnClickListener(this);
         findViewById(R.id.button6).setOnClickListener(this);
         findViewById(R.id.button7).setOnClickListener(this);
+        findViewById(R.id.button9).setOnClickListener(this);
     }
 
     @Override
@@ -51,6 +52,9 @@ public class MainActivity_5 extends AppCompatActivity implements View.OnClickLis
                 break;
             case R.id.button7:
                 goActivity(Activity_5_2_7.class,v);
+                break;
+            case R.id.button9:
+                goActivity(Activity_5_2_9.class,v);
                 break;
         }
     }

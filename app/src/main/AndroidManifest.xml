@@ -24,6 +24,7 @@
         <activity android:name=".ui.Activity_5_2_5" />
         <activity android:name=".ui.Activity_5_2_6" />
         <activity android:name=".ui.Activity_5_2_7" />
+        <activity android:name=".ui.Activity_5_2_9" />
 
     </application>
 

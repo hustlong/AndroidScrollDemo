@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="UIScrollView">
+        <attr name="maxTopOffset" format="dimension" />
+        <attr name="maxBottomOffset" format="dimension" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+    
+</resources>

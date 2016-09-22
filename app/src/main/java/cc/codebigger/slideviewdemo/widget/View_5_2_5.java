@@ -44,6 +44,8 @@ public class View_5_2_5 extends View {
             case MotionEvent.ACTION_DOWN:
                 lastX = x;
                 lastY = y;
+                if (scroller.computeScrollOffset())
+                    scroller.forceFinished(true);
                 break;
             case MotionEvent.ACTION_MOVE:
                 int offsetX = x - lastX;
@@ -52,7 +54,7 @@ public class View_5_2_5 extends View {
                 offsetTopAndBottom(offsetY);
                 break;
             case MotionEvent.ACTION_UP:
-                scroller.startScroll(getLeft(),getTop(),-getLeft()+initX,-getTop()+initY);
+                scroller.startScroll(getLeft(),getTop(),-getLeft()+initX,-getTop()+initY,2000);
                 invalidate();
 
                 break;

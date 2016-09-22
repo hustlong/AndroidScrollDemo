@@ -7,13 +7,15 @@ import cc.codebigger.slideviewdemo.R;
 import cc.codebigger.slideviewdemo.base.BaseActivity;
 
 /**
- * Created by code on 9/22/16.
+ * Created by yanglong on 2016/9/21.
  */
-public class Activity_5_2_7 extends BaseActivity{
+
+public class Activity_5_2_9 extends BaseActivity {
+
     @Override
     protected void onCreate(Bundle ins) {
         super.onCreate(ins);
-        setContentView(R.layout.activity_5_2_7);
+        setContentView(R.layout.activity_5_2_9);
 
         Intent intent = getIntent();
         if (intent != null)
