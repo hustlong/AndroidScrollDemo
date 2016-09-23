@@ -33,9 +33,7 @@ public class View_5_2_4 extends View {
             case MotionEvent.ACTION_MOVE:
                 int offsetX = x - lastX;
                 int offsetY = y - lastY;
-
                 ((View)getParent()).scrollBy(-offsetX,-offsetY);
-
                 break;
         }
 

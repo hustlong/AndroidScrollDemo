@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:background="@color/divider"
-        android:layout_width="300dp"
+        android:layout_width="180dp"
         android:gravity="center"
         android:layout_height="match_parent">
 

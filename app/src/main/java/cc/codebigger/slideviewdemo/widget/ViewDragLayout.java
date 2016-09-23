@@ -64,11 +64,11 @@ public class ViewDragLayout extends FrameLayout {
         @Override
         public void onViewReleased(View child,float xVel,float yVel) {
             super.onViewReleased(child,xVel,yVel);
-            if (mMainView.getLeft() < 500) {
+            if (mMainView.getLeft() < mWidth) {
                 mViewDragHelper.smoothSlideViewTo(mMainView,0,0);
                 ViewCompat.postInvalidateOnAnimation(ViewDragLayout.this);
             } else {
-                mViewDragHelper.smoothSlideViewTo(mMainView,300,0);
+                mViewDragHelper.smoothSlideViewTo(mMainView,mWidth,0);
                 ViewCompat.postInvalidateOnAnimation(ViewDragLayout.this);
             }
         }
